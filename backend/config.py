@@ -21,5 +21,5 @@ class FyersParameters:
         pass
 
 class FrontEnd:
-    base_url = 'http://127.0.0.1:8000/'
-    post_login_url = 'http://127.0.0.1:8000/'
+    base_url = 'https://tradealertapp.herokuapp.com/'
+    post_login_url = 'https://tradealertapp.herokuapp.com/'
