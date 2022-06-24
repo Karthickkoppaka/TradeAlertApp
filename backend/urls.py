@@ -1,6 +1,9 @@
+from django.urls.conf import include
 from django.urls import path
-from . import views
+from .fyers import urls as furls
+
 
 urlpatterns = [
-    path('',views.indexer)
+    #Login Fyers Session
+    path('Fyers/',include(furls)),
 ]
