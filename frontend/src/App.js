@@ -1,3 +1,5 @@
+import './scss/styles.scss';
+
 function App() {
   return (
    <h2>Main Page</h2>
